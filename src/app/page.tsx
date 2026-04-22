@@ -6,6 +6,12 @@ export default function Home() {
       <div className="h-screen flex flex-col gap-4 justify-center items-center">
         <h1 className="bg-zinc-100 p-4 rounded-lg">Olá, Mundo!</h1>
         <Link href={"/about"}>Pagina - Sobre</Link>
+        <Link
+          href={"/students"}
+          className="px-4 py-2 bg-zinc-800 text-white rounded-lg text-sm hover:bg-zinc-700 transition-colors"
+        >
+          Módulo Alunos — Props, Estado & Componentes
+        </Link>
       </div>
     </main>
   )
